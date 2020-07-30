@@ -1,4 +1,4 @@
-<img src="img/ray.fw.png" alt="Ray Logo" style="width:33%;height:33%" />
+<div align="center"><img src="img/ray.fw.png" alt="Ray Logo" width="25%" height="25%" /></div>
 
 <u>English</u>|[简体中文](ReadMe.CN.md)
 
