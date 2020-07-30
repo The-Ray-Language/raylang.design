@@ -36,7 +36,7 @@ Well,ray is just a language aimed at  simple and efficiency.
 get console// also use  get console as con; to rename a module
 ```
 
-	##### export
+##### export
 
 ​	To be easy ,just a `put` is enough
 
