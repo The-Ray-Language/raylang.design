@@ -1,6 +1,8 @@
+<img src="img/ray.fw.png" alt="Ray Logo" style="zoom:33%;" />
+
 <u>English</u>|[简体中文](ReadMe.CN.md)
 
-# The Design Overview
+# The Ray Language Design Overview
 
 ### Design Philosophy
 

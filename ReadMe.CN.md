@@ -1,6 +1,8 @@
+<img src="img/ray.fw.png" alt="Ray的Logo" style="zoom:33%;" />
+
 [English](ReadMe.md)|<u>简体中文</u>
 
-# 设计总览
+# Ray语言设计总览
 
 ### 设计哲学
 
