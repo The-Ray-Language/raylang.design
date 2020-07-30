@@ -1,4 +1,4 @@
-<img src="img/ray.fw.png" alt="Ray Logo" style="zoom:33%;" />
+<img src="img/ray.fw.png" alt="Ray Logo" style="width:33%;height:33%" />
 
 <u>English</u>|[简体中文](ReadMe.CN.md)
 
@@ -26,7 +26,7 @@ Well,ray is just a language aimed at  simple and efficiency.
 
 
 
-## In below grammar contents,"<>" represents "must" and "[]" represenst "optional"
+## In below grammar contents,"<>" represents "must" and "[]" represents "optional"
 
 ### Module System
 

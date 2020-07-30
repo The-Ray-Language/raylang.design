@@ -1,4 +1,4 @@
-<img src="img/ray.fw.png" alt="Ray的Logo" style="zoom:33%;" />
+<img src="img/ray.fw.png" alt="Ray的Logo" style="width:33%;height:33%" />
 
 [English](ReadMe.md)|<u>简体中文</u>
 
