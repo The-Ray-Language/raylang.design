@@ -84,7 +84,7 @@ function fib(n:int)->int{
 	}
 	else
 	{
-		return fun(n - 1) + fun(n - 2);
+		return fib(n - 1) + fib(n - 2);
 	}
 }
 
