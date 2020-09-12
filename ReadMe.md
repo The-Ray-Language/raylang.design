@@ -114,3 +114,53 @@ escape character is useless
 ";
 ```
 
+### Switch-Case
+
+```ray
+fn main(){
+	var i:int = 0;
+	switch(i){
+		1->{
+		
+		}
+		
+		
+		4->5->6->7{
+		
+		}
+		
+		default->{
+		
+		}
+	}
+	
+}
+```
+
+Just use ray operator `->` instead of `case` or `default`
+
+
+
+### Loops
+
+```ray
+fn main(){
+	//counting loop
+	for(var i:int = 999;i>1;i++){
+	
+	}
+	
+	//infinite loop
+	for(;;){
+	
+	}
+	
+	//condition loop
+	var j:int = 10;
+	for(;j<200;){
+		
+	}
+}
+```
+
+Notice: **there's no `while` loop**!

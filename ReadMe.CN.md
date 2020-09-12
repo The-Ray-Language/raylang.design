@@ -114,3 +114,52 @@ escape character is useless
 ";
 ```
 
+### 开关语句
+
+```ray
+fn main(){
+	var i:int = 0;
+	switch(i){
+		1->{
+		
+		}
+		
+		
+		4->5->6->7{
+		
+		}
+		
+		default->{
+		
+		}
+	}
+	
+}
+```
+
+使用独特的 ray 操作符 `->` 而不是  `case` 或 `default`
+
+### 循环语句
+
+```ray
+fn main(){
+	//计次循环
+	for(var i:int = 999;i>1;i++){
+	
+	}
+	
+	//死循环
+	for(;;){
+	
+	}
+	
+	//条件循环
+	var j:int = 10;
+	for(;j<200;){
+		
+	}
+}
+```
+
+注意: **没有 `while` 循环**!
+
