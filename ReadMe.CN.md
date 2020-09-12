@@ -45,7 +45,7 @@ get console;//也可以使用 get console as con; 给模块起别名
 ​	为了简单，一个`put`足够了。
 
 ```ray
-put int i:int =0;
+put var i:int =0;
 ```
 
 ### 变量和常量系统
