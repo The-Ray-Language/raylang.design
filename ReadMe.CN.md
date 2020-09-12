@@ -37,7 +37,7 @@
 ​	没有`import` ,没有`using` ,仅仅是`get`.
 
 ``` ray
-get console//也可以使用 get console as con; 给模块起别名
+get console;//也可以使用 get console as con; 给模块起别名
 ```
 
 ##### 导出
@@ -45,14 +45,14 @@ get console//也可以使用 get console as con; 给模块起别名
 ​	为了简单，一个`put`足够了。
 
 ```ray
-put int i:int =0
+put int i:int =0;
 ```
 
 ### 变量和常量系统
 
 ```ray
-var i:int
-const s:string = "Hello"//常量必须初始化
+var i:int;
+const s:string = "Hello";//常量必须初始化
 ```
 
 语法是 `<var|const> 名称:<类型> [= value]`

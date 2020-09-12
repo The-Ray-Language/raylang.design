@@ -35,7 +35,7 @@ Well,ray is just a language aimed at  simple and efficiency.
 ​	No `import` ,no `using`,just a simple `get`
 
 ```ray
-get console// also use  get console as con; to rename a module
+get console;// also use  get console as con; to rename a module
 ```
 
 ##### export
@@ -43,7 +43,7 @@ get console// also use  get console as con; to rename a module
 ​	To be easy ,just a `put` is enough
 
 ``` ray
-put var i:int = 0
+put var i:int = 0;
 ```
 
 
@@ -51,8 +51,8 @@ put var i:int = 0
 ### Variable and constant System
 
 ```ray
-var i:int
-const s:string = "Hello"//constant must initalize
+var i:int;
+const s:string = "Hello";//constant must initalize
 ```
 
 The grammar is `<var|const> name:<Type> [= value]`
