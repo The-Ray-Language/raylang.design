@@ -167,7 +167,7 @@ switch (i)
 }
 ```
 
-### Loops
+## Loops
 
 Use `for` to write loops.
 
@@ -196,7 +196,7 @@ for (;;) // infinite loop
 
 Note that there's no `while` loop.
 
-### Comments
+## Comments
 
 Single line comments start with `//`.
 
@@ -211,7 +211,7 @@ Comment blocks start with `/*`, end with `*/`.
    which can consist multiple lines */
 ```
 
-### String Literals
+## String Literals
 
 Use `'` to quote string literals.
 
