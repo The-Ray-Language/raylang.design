@@ -2,21 +2,21 @@
 
 <u>English</u>|[简体中文](README.zh-CN.md)
 
->​ The philosophy of Ray
+> The philosophy of Ray
 >
->​ We are great knights.
+> We are great knights.
 >
->​ We have enough strength.
+> We have enough strength.
 >
 > With sharp swords made of easy,
 >
->​ a strong shield made of practicality,
+> a strong shield made of practicality,
 >
 > as well as a rapid horse of efficiency,
 >
->​ WE ARE SURE TO MAKE A BETTER WORLD!
+> WE ARE SURE TO MAKE A BETTER WORLD!
 >
->​ by Andrew Sc (S·c)
+> by Andrew Sc (S·c)
 
 Well, Ray is just a language aimed to be simple and efficiency.
 
