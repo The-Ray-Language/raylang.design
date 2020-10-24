@@ -24,7 +24,7 @@ Well, Ray is just a language aimed to be simple and efficiency.
 
 ```ray
 // An instruction must end with a comma
-get console as con; // import the module 'console' and create the alias 'con'
+use console as con; // import the module 'console' and create the alias 'con'
 
 fn main(args: string[]) // define the entry point
 {
@@ -41,7 +41,7 @@ get console; // import the module 'console'
 get console as con; // import the module 'console' and create the alias 'con'
 ```
 
-​A simple `put` is good enough to export things.
+A simple `put` is good enough to export things.
 
 ```ray
 put var i: int = 0; // export the variable 'i' for other programs
@@ -53,7 +53,7 @@ Before Variables are used, they must be declared using `var`.
 The type name of the variable is given in the declaration.
 
 ```ray
-var i: int; // define the variable 'i' with the type name 'int' and automatically set to the default value.
+var i: int; // define the variable 'i' with the type name 'int' and automatically set to the default value 0.
 var j: int = 1; // a variable can be declared with the value set
 ```
 
@@ -227,3 +227,40 @@ var raw: string = "raw string literal
 which can consist multiple lines
 \n -> useless, performed literally";
 ```
+
+## Object Oriented Programming
+
+It is simplified a lot.The grammar was as follow.
+
+```ray
+get console as con;//import the module console
+
+//Any class is inherited from the type object
+class obj{
+	
+    // Constructor
+	public fn obj(){
+	}
+	
+	// Destructor is an operator overrideing function
+	public fn __DEL__(){
+		con.out("The object was deleted!");
+	}
+};
+
+class human{
+
+};
+
+//Multiple inheritance is ok.
+class people extends obj,human
+{
+
+};
+
+fn main(args: string[]){
+	var o:obj = new obj();//the variable is only a pointer
+}
+
+```
+

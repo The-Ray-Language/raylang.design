@@ -43,7 +43,7 @@ get console; // 导入 console 模块
 get console as con; // 导入 console 模块并起别名 con
 ```
 
-​一个简单的 `put` 就足够导出了
+一个简单的 `put` 就足够导出了
 
 ```ray
 put var i: int = 0; // 导出变量 i 供其他程序使用
@@ -228,3 +228,42 @@ var raw: string = "原始字符串字面值
 其中可换行
 \n -> 无效，仅仅是字面值";
 ```
+
+## 面向对象编程
+
+极大的简化了.语法如下.
+
+```ray
+get console as con;//导入模块 console
+
+//任何类一律继承自类型object
+class obj{
+	
+    // 构造函数
+	public fn obj(){
+	
+	}
+	
+	// 析构函数
+	public fn __DEL__(){
+		con.out("The object was deleted!");
+	}
+};
+
+class human{
+
+};
+
+//允许多继承
+class people extends obj,human
+{
+
+};
+
+
+fn main(args: string[]){
+	var o:obj = new obj();//这个变量仅仅是指针
+}
+
+```
+
