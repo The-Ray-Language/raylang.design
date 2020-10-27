@@ -24,7 +24,7 @@ Well, Ray is just a language aimed to be simple and efficiency.
 
 ```ray
 // An instruction must end with a comma
-use console as con; // import the module 'console' and create the alias 'con'
+get console as con; // import the module 'console' and create the alias 'con'
 
 fn main(args: string[]) // define the entry point
 {
