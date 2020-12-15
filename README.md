@@ -230,16 +230,16 @@ which can consist multiple lines
 
 ## Object Oriented Programming
 
-It is simplified a lot.The grammar was as follow.
+It is simplified a lot.The grammar was as follow.Notice that all class must be **Uppercase**！
 
 ```ray
 get console as con;//import the module console
 
-//Any class is inherited from the type object
-class obj{
+//Any class is inherited from the type Object
+class Obj{
 	
     // Constructor
-	public fn obj(){
+	public fn Obj(){
 	}
 	
 	// Destructor is an operator overrideing function
@@ -248,19 +248,42 @@ class obj{
 	}
 };
 
-class human{
+class Human{
 
 };
 
-//Multiple inheritance is ok.
-class people extends obj,human
+//Multiple inheritance is ok，but it's deprecated.
+class People extends Obj,Human
 {
 
 };
 
 fn main(args: string[]){
-	var o:obj = new obj();//the variable is only a pointer
+	var o:Obj = new Obj();//the variable ‘o' is only a reference
 }
 
+```
+
+## Interfaces
+
+Abstract class to implement "multiple inheritance" which is recommended
+
+```ray
+
+interface Animal{
+	function kill()->void;
+};
+
+class Cat{
+	protected var name:string;
+	
+	public function Cat(name:string){
+		this.name = name;
+	}
+	//After declaring this method，Cat can be casted to Animal
+	public function kill(){
+	
+	}
+};
 ```
 

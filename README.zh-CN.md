@@ -231,16 +231,16 @@ var raw: string = "原始字符串字面值
 
 ## 面向对象编程
 
-极大的简化了.语法如下.
+极大的简化了.语法如下,注意，类名必须**大写**！.
 
 ```ray
 get console as con;//导入模块 console
 
-//任何类一律继承自类型object
-class obj{
+//任何类一律继承自类型Object
+class Obj{
 	
     // 构造函数
-	public fn obj(){
+	public fn Obj(){
 	
 	}
 	
@@ -250,20 +250,42 @@ class obj{
 	}
 };
 
-class human{
+class Human{
 
 };
 
-//允许多继承
-class people extends obj,human
+//允许多继承，但弃用
+class People extends Obj,Human
 {
 
 };
 
 
 fn main(args: string[]){
-	var o:obj = new obj();//这个变量仅仅是指针
+	var o:Obj = new Obj();//这个变量仅仅是引用
 }
 
+```
+
+## Interfaces
+
+抽象类，推荐的"多继承"实现方法
+
+```ray
+interface Animal{
+	function kill()->void;
+};
+
+class Cat{
+	protected var name:string;
+	
+	public function Cat(name:string){
+		this.name = name;
+	}
+	//定义了这个方法以后，Cat可以被强制转化到Animal
+	public function kill(){
+	
+	}
+};
 ```
 
