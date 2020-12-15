@@ -267,7 +267,7 @@ fn main(args: string[]){
 
 ```
 
-## Interfaces
+## 接口
 
 抽象类，推荐的"多继承"实现方法
 
